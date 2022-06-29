@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <title>Tayler Gammon</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce158432d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/Tayler Gammon (500 × 250 px)-5.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onClick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="#learn_more">ABOUT ME</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#contact-me">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onClick="showMenu()"></i>
+        </nav>
+         <div class="text-box">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>My name is Tayler Gammon and I have been a licensed Board Certified Hearing Professional for the past 12 years.  My skills in healthcare, data entry, and marketing design as well as my attention to detail and ability to learn new systems quickly will help me in any future role.</p>
+            <a href="#learn_more" class="hero-btn red-btn">Learn More</a>
+         </div>
+    </section>
+    
+    <section class="about-us" id="learn_more">
+
+        <h1>About Me</h1>
+        <p>I am a dedicated and experienced Telehealth Hearing Professional who can adapt quickly to new systems.  Some of my top skills and qualifications are highlighted below:</p>
+
+        <div class="row">
+            <div class="column">
+                <h3>Licenses</h3>
+                <p>I am licensed to sell and fit hearing aids in 4 states: Arizona, Colorado, Oklahoma, and Tennessee.  I am also Board Certified in Hearing Instrument Sciences.</p>
+            </div>
+            <div class="column">
+                <h3>Telehealth</h3>
+                <p>For over 5 years, I have successfully used Telehealth Techniques to counsel patients on the care, use, and adaptation of their hearing aids.   </p>
+            </div>
+            <div class="column">
+                <h3>Marketing</h3>
+                <p>I have helped with marketing initiatives and have designed letters/newspaper ads that have brought in new sales. Examples available upon request.</p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="experience">
+        <h1>Experience</h1>
+        <p>My past work history.  More can be found on my LinkedIn profile.</p>
+
+        <div class="service-row">
+            <div class="service-col">
+                <h3>Eargo</h3>
+                <h5>Personal Hearing Professional</h6>
+                <h6>Mar 2018 - May 2022</h6>
+                <p>Successfully supported patients using telehealth techniques.
+                    Counseled patients on the care, use, and adaptation of their hearing aids.
+                    Helped with UAT and new product testing using Jira and Figma.
+                    Achieved a return rate below 25% and a high call completion rate.</p>
+            </div>
+            <div class="service-col">
+                <h3>Eargo</h3>
+                <h5>Inside Sales Rep</h6>
+                <h6>Aug 2017 - Mar 2018</h6>
+                <p>Made on average 80 calls per day to leads.
+                    Used qualifying questions to determine candidacy for Eargo hearing aids. 
+                    Used Salesforce daily to update leads and input sales and process orders.</p>
+            </div>
+            <div class="service-col">
+                <h3>Beltone</h3>
+                <h5>Hearing Instrument Specialist</h6>
+                <h6>Oct 2007 - July 2017</h6>
+                <p>Conducted hearing evaluations and sold hearing aids.
+                    Counseled patients on the care, use, and adaptation of their hearing aids.
+                    Helped with marketing initiatives and designed letters/newspaper ads that brought in new sales and current user upgrades.</p>
+            </div>
+        </div>
+        </div>
+        
+            <div class="row" id="contact-me">
+                <div class="contact-col">
+                    <div>
+                        <span>
+                            <h5>If you like what you see, contact me today!</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>(405) 404-3154</h5>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>taylergammon@icloud.com</h5>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+    
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="phone" name="phone" placeholder="Phone" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+    
+    
+    
+                </div>
+            </div>        
+           
+        </section>
+    
+
+     <section class="footer">
+        <div class="icons">
+            <h4>Tayler Gammon</h4>
+            <p>Thank you for visiting my porfolio! Please contact me above if you feel like I would be a good fit for your company or you can visit my LinkedIn profile below.</p>
+            <a href="https://www.linkedin.com/in/taylergammon"><i class="fa-brands fa-linkedin fa-3x"></i><br>
+            
+  
+                
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+
+
+
+</body>
+</html>
