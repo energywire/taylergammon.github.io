@@ -7,7 +7,7 @@
 .header{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url("taylergammon.github.io/images/background.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url("background.jpg");
     background-size: cover;
     background-position: cover;
     position: relative;
