@@ -91,7 +91,7 @@ nav .fa-solid{
 .row h2{
     text-align: center;
 }
-@media screen (max-width: 799px){
+@media screen (max-width: 799px) and (min-width: 520px) {
     
     .text-box h1{
         font-size: 32px;
