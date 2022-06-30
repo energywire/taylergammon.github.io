@@ -97,10 +97,11 @@ nav .fa-solid{
     width: 600px;
     }
     .text-box h1{
-        font-size: 50px;
+        font-size: 75px;
     }
     .text-box p{
         font-size: 36px;
+        line-height: 1px;
     }
     .nav-links ul li{
         display: block;
