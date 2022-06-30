@@ -161,7 +161,7 @@ nav .fa-solid{
     }
 }
 
-@media all (max-width: 699px) {
+@media (max-width: 799px) {
     
     .text-box h1{
         font-size: 32px;
