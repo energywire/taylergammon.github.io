@@ -93,11 +93,14 @@ nav .fa-solid{
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
-     .text-box h1{
-        font-size: 32px;
+    nav img{
+    width: 450px;
+    }
+    .text-box h1{
+        font-size: 42px;
     }
     .text-box p{
-        font-size: 12px;
+        font-size: 24px;
     }
     .nav-links ul li{
         display: block;
