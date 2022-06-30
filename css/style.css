@@ -64,7 +64,7 @@ ul li a:hover::after{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
     padding: 0 85px;
 }
@@ -97,7 +97,7 @@ nav .fa-solid{
         font-size: 20px;
     }
     .text-box p{
-        font-size: 18px;
+        font-size: 12px;
         line-height: 1.6;
     }
     .nav-links ul li{
