@@ -91,7 +91,69 @@ nav .fa-solid{
 .row h2{
     text-align: center;
 }
-@media all (max-width: 400px) {
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+     .text-box h1{
+        font-size: 32px;
+    }
+    .text-box p{
+        font-size: 12px;
+    }
+    .nav-links ul li{
+        display: block;
+        overflow: hidden;
+    }
+    .nav-links {
+        position: fixed;
+        overflow: hidden;
+        background: #9c9c9c;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul li a{
+        color: #000;
+        text-decoration: none;
+        font-size: 13px;
+    }
+   
+   nav .fa-solid {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .service-row{
+        flex-direction: column;
+    }
+    .testimonial-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .footer p{
+        font-size: 14px;
+        margin: 25px;
+        
+    }
+    .services p {
+        padding: 15 65px;
+    }
+}
+
+@media all (max-width: 699px) {
     
     .text-box h1{
         font-size: 32px;
