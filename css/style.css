@@ -94,8 +94,8 @@ nav .fa-solid{
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
     .hero-btn{
-    padding: 10px 32px;
-    font-size: 15px;
+    padding: 10px 28px;
+    font-size: 12px;
     }
     nav img{
     width: 750px;
