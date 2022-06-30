@@ -91,7 +91,14 @@ nav .fa-solid{
 .row h2{
     text-align: center;
 }
-
+@media only screen (-webkit-device-pixel-ratio: 3) { 
+    .text-box h1{
+        font-size: 20px;
+    }
+    .text-box p{
+        font-size: 12px;
+        line-height: 1.6;
+    }
 @media (max-width: 700px) {
     .text-box h1{
         font-size: 20px;
@@ -139,10 +146,6 @@ nav .fa-solid{
     }
     .service-row{
         flex-direction: column;
-    }
-    .testimonial-col img{
-        margin-left: 0px;
-        margin-right: 15px;
     }
     .footer p{
         font-size: 14px;
