@@ -92,7 +92,7 @@ nav .fa-solid{
     text-align: center;
 }
 
-@media (min-width: 325px) and (max-width: 725px) {
+@media (max-width: 725px) {
     .hero-btn{
     padding: 10px 28px;
     font-size: 18px;
